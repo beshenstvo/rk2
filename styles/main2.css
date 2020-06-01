@@ -105,6 +105,10 @@ body div.main div.main__about {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.616);
 }
 
+body div.main div.main__about img {
+  width: 100%;
+}
+
 body div.main div.main__news, body div.main div.main__activity, body div.main div.main__organiz {
   margin-top: 4rem;
   margin-bottom: 4rem;

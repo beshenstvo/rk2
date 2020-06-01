@@ -7,7 +7,7 @@ body {
 }
 
 body div.header {
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #111111), url("../img/main2.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61), #111111), url("../img/main2.jpg");
   height: 100vh;
   background-size: cover;
   align-items: center;
@@ -17,17 +17,17 @@ body div.header {
 }
 
 body div.header div.header__action button {
-  padding: 1rem;
+  padding: 1.3rem;
   background-color: #1a50a1;
   border: none;
   text-transform: uppercase;
-  transition: 0.4s all;
+  transition: 0.5s all;
   color: white;
 }
 
 body div.header div.header__action button:hover {
   cursor: pointer;
-  box-shadow: 4px 4px 30px inset #0d3879;
+  box-shadow: 4px 4px 30px inset #072552;
 }
 
 body div.header div.header__text {
@@ -37,14 +37,14 @@ body div.header div.header__text {
 body div.header div.header__text p:nth-child(1) {
   font-size: 30px;
   font-weight: 900;
-  color: black;
+  color: white;
   text-transform: uppercase;
 }
 
 body div.header div.header__text p:nth-child(2) {
   font-size: 15px;
   font-weight: 900;
-  color: black;
+  color: white;
   text-transform: uppercase;
 }
 

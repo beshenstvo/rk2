@@ -6,7 +6,7 @@ body{
     background-color: rgba(0, 0, 0, 0.93);
     div.header{
         background-image:
-        linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #111111),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.61), #111111),
         url('../img/main2.jpg');
         height: 100vh;
         background-size: cover;
@@ -15,16 +15,16 @@ body{
         flex-direction: column;
         justify-content: space-around;
         div.header__action button{
-            padding: 1rem;
+            padding: 1.3rem;
             background-color: rgb(26, 80, 161);
             border: none;
             text-transform: uppercase;
-            transition: 0.4s all;
+            transition: 0.5s all;
             color: white;
         }
         div.header__action button:hover{
             cursor: pointer;
-            box-shadow: 4px 4px 30px inset rgb(13, 56, 121);
+            box-shadow: 4px 4px 30px inset rgb(7, 37, 82);
         }
         div.header__text{
             margin-top: 10%;
@@ -32,13 +32,13 @@ body{
         div.header__text p:nth-child(1){
             font-size: 30px;
             font-weight: 900;
-            color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
             text-transform: uppercase;
         }
         div.header__text p:nth-child(2){
             font-size: 15px;
             font-weight: 900;
-            color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
             text-transform: uppercase;
         }
         div.header__menu{

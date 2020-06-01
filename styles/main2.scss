@@ -90,6 +90,9 @@ body{
            color: white;
            text-align: left;
            box-shadow: 0 0 15px rgba(255, 255, 255, 0.616);
+           img{
+            width: 100%;
+        }
        }
        div.main__news, div.main__activity, div.main__organiz{
         margin-top: 4rem;
