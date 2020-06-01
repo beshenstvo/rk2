@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" media="print" href="../styles/print.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/main2.css">
     <script
@@ -67,19 +68,17 @@
        </div>
     </div>
     <div class="footer">
-        <p><strong>Проект выполнила:</strong> Гатауллина Руфина 191-322</br>
+        <p><strong>Проект выполнила:</strong> Гатауллина Руфина 191-322<br>
             Московский политех 2020
         </p>
     </div>
-   
+    <script>
+        $(".header__sidebar").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 1100);
+        });
+    </script>
 </body>
-
-<script type="text/javascript">
-    $(".header__sidebar").on("click","a", function (event) {
-        event.preventDefault();
-        var id  = $(this).attr('href'),
-        top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1100);
-    });
-</script>
 </html>
